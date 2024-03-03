@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="URL" value="rahulshettyacademy.com"/>
+  <test thread-count="5" name="personal loan(failed)">
+    <classes>
+      <class name="basic.day2">
+        <methods>
+          <include name="ploan5"/>
+          <include name="ploan4"/>
+        </methods>
+      </class> <!-- basic.day2 -->
+    </classes>
+  </test> <!-- personal loan(failed) -->
+</suite> <!-- Failed suite [Suite] -->
